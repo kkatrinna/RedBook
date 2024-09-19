@@ -16,6 +16,10 @@ ymaps.ready(function () {
         balloonContent: 'Ёж, гадюка, уж, кутора, зелёная лягушка, травянка толстоголовая, скакун полевой, жужелица гладкая'
     });
 
+	var placemark1 = new ymaps.Placemark([55.783849, 37.417371], {
+        balloonContent: 'Соня орешлниковая, гадюка, нетопырь, кутораскакун полевой'
+    });
+	
     myMap.geoObjects.add(placemark1);
     myMap.geoObjects.add(placemark2);
 });
